@@ -35,6 +35,22 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+<style>
+	.wrap { padding: 15px; }
+h1 { font-size: 28px; }
+h4,
+modal-title { font-size: 18px; font-weight: bold; }
+
+.no-borders { border: 0px; }
+.body-message { font-size: 18px; }
+.centered { text-align: center; }
+.btn-primary { background-color: #2086c1; border-color: transparent; outline: none; border-radius: 8px; font-size: 15px; padding: 10px 25px; }
+.btn-primary:hover { background-color: #2086c1; border-color: transparent; }
+.btn-primary:focus { outline: none; }
+
+</style>
+		
+
 </head>
 
 <body id="inner_page" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
@@ -74,7 +90,54 @@
             </div>
         </nav>
     </header>
+
+
+
+
+
+
+
     <!-- End header -->
+	
+		 
+		<div class="modal fade bs-example-modal-new" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			
+			<div class="modal-dialog">
+				
+				<!-- Modal Content: begins -->
+				<div class="modal-content">
+					
+					<!-- Modal Header -->
+					<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						
+					</div>
+				
+					<!-- Modal Body -->  
+					<div class="modal-body">
+						<div class="body-message">
+
+
+							<h4>Any Heading</h4>
+							<p>And a paragraph with a full sentence or something else...</p>
+
+
+
+						</div>
+					</div>
+				
+					<!-- Modal Footer -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal">Register</button>
+					</div>
+				
+				</div>
+				<!-- Modal Content: ends -->
+				
+			</div>
+			
+		</div>
+		<!-- modal end -->
 
 	<!-- section -->
 	
@@ -111,7 +174,9 @@
 					 </p>
         </div>
         <div class="full">
-           <a class="hvr-radial-out button-theme" href="#">About more</a>
+					<a class="hvr-radial-out button-theme"   data-toggle="modal" data-target=".bs-example-modal-new"
+					style="color: white;"
+					>Register</a>
         </div>
                 </div>
             </div>
@@ -154,8 +219,14 @@
 			
 			</p>
 			</div>
+
+
+
 			<div class="full">
-			<a class="hvr-radial-out button-theme" href="#">About more</a>
+			<a class="hvr-radial-out button-theme"   data-toggle="modal" data-target=".bs-example-modal-new"
+			style="color: white;"
+			>Register</a>
+
 			</div>
 				</div>
 			</div>
@@ -179,7 +250,9 @@
 	</p>
 </div>
 <div class="full">
-	 <a class="hvr-radial-out button-theme" href="#">About more</a>
+	<a class="hvr-radial-out button-theme"   data-toggle="modal" data-target=".bs-example-modal-new"
+	style="color: white;"
+	>Register</a>
 </div>
 				</div>
 		</div>
@@ -204,7 +277,9 @@
 		</p>
 		</div>
 		<div class="full">
-		<a class="hvr-radial-out button-theme" href="#">About more</a>
+			<a class="hvr-radial-out button-theme"   data-toggle="modal" data-target=".bs-example-modal-new"
+			style="color: white;"
+			>Register</a>
 		</div>
 			</div>
 		</div>
@@ -228,7 +303,9 @@
 </p>
 </div>
 <div class="full">
- <a class="hvr-radial-out button-theme" href="#">About more</a>
+	<a class="hvr-radial-out button-theme"   data-toggle="modal" data-target=".bs-example-modal-new"
+			style="color: white;"
+			>Register</a>
 </div>
 			</div>
 	</div>
