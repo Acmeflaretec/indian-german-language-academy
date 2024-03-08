@@ -25,9 +25,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-
 					var closeButton = document.querySelector('.modal .modal-header .close');
 					closeButton.click(); // Trigger click event on the close button
+					// removing values after register
+           name.value=''
+           email.value=''
 
 			});
 	} else {
