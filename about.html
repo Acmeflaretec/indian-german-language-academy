@@ -77,7 +77,7 @@
     <!-- End header -->
 
 		   <!-- End header -->
-			 <form id="registrationForm">
+			 <form name="registrationForm">
         <div class="modal fade bs-example-modal-new" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <!-- Modal Content: begins -->
@@ -119,13 +119,15 @@
                     </div>
                     <!-- Modal Footer -->
                     <div class="modal-footer">
-                        <button type="submit" class="btn btn-primary">Register</button>
+                        <button type="submit" class="btn btn-primary" id="registerButton">Register</button>
+                        <div id="loader" class="loader" style="display: none;"></div>
                     </div>
                 </div>
                 <!-- Modal Content: ends -->
             </div>
         </div>
     </form>
+    
 			<!-- modal end -->
 
 	<!-- section -->
