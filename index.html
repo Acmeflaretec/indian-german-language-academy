@@ -88,53 +88,56 @@
     <!-- End header -->
 
 
-    <div class="modal fade bs-example-modal-new" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <!-- Modal Content: begins -->
-            <div class="modal-content">
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                </div>
-                <!-- Modal Body -->
-                <div class="modal-body">
-                    <div class="body-message">
-                        <div class="form-group">
-                            <label for="name">Name:</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="course">Course Choice:</label>
-                            <select class="form-control" id="course" name="course">
-                                <option value="A1">A1</option>
-                                <option value="A2">A2</option>
-                                <option value="B1">B1</option>
-                                <option value="B2">B2</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="class-preference">Class Preference:</label>
-                            <select class="form-control" id="class-preference" name="class-preference">
-                                <option value="One to One">One to One</option>
-                                <option value="Group Class Morning">Group Class Morning</option>
-                                <option value="Group Class Evening">Group Class Evening</option>
-                            </select>
-                        </div>
+    <form id="registrationForm">
+        <div class="modal fade bs-example-modal-new" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <!-- Modal Content: begins -->
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     </div>
-                    
+                    <!-- Modal Body -->
+                    <div class="modal-body">
+                        <div class="body-message">
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="course">Course Choice:</label>
+                                <select class="form-control" id="course" name="course">
+                                    <option value="A1">A1</option>
+                                    <option value="A2">A2</option>
+                                    <option value="B1">B1</option>
+                                    <option value="B2">B2</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="class-preference">Class Preference:</label>
+                                <select class="form-control" id="class-preference" name="class-preference">
+                                    <option value="One to One">One to One</option>
+                                    <option value="Group Class Morning">Group Class Morning</option>
+                                    <option value="Group Class Evening">Group Class Evening</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Modal Footer -->
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </div>
                 </div>
-                <!-- Modal Footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Register</button>
-                </div>
+                <!-- Modal Content: ends -->
             </div>
-            <!-- Modal Content: ends -->
         </div>
-    </div>
+    </form>
+    
     
 		<!-- modal end -->
 
@@ -153,7 +156,7 @@
                                         <br>
                                         <div class="full center">
                                             <!-- <a class="contact_bt" href="index.html">Register now</a> -->
-                                            <a class=" contact_bt"   data-toggle="modal" data-target=".bs-example-modal-new"
+                                            <a class=" contact_bt custom-hover-effect"   data-toggle="modal" data-target=".bs-example-modal-new"
                                             style="color: white;"
                                             >Register</a>
                                         </div>
@@ -173,7 +176,7 @@
                                         <br>
                                         <div class="full center">
                                             <!-- <a class="contact_bt" href="index.html">Register now</a> -->
-                                            <a class=" contact_bt"   data-toggle="modal" data-target=".bs-example-modal-new"
+                                            <a class=" contact_bt custom-hover-effect"   data-toggle="modal" data-target=".bs-example-modal-new"
                                             style="color: white;"
                                             >Register</a>
                                         </div>
@@ -235,7 +238,7 @@
                             and career advancement in one of Europe's leading economies. Start your journey with us today and unlock a world of possibilities.</p>
 						</div>
 						<div class="full">
-                            <a class="hvr-radial-out button-theme"   data-toggle="modal" data-target=".bs-example-modal-new"
+                            <a class="hvr-radial-out button-theme btnhovercursor"   data-toggle="modal" data-target=".bs-example-modal-new"
                             style="color: white;"
                             >Register</a>
 						</div>
@@ -310,7 +313,7 @@
                           </p>
 						</div>
 						<div class="full">
-                            <a class="hvr-radial-out button-theme"   data-toggle="modal" data-target=".bs-example-modal-new"
+                            <a class="hvr-radial-out button-theme btnhovercursor"   data-toggle="modal" data-target=".bs-example-modal-new"
                             style="color: white;"
                             >Register</a>
 						</div>
@@ -337,7 +340,7 @@
                              Take your German proficiency to the next level and unlock new opportunities for personal and professional growth.</p>
 						</div>
 						<div class="full">
-                            <a class="hvr-radial-out button-theme"   data-toggle="modal" data-target=".bs-example-modal-new"
+                            <a class="hvr-radial-out button-theme btnhovercursor"   data-toggle="modal" data-target=".bs-example-modal-new"
                             style="color: white;"
                             >Register</a>
 						</div>

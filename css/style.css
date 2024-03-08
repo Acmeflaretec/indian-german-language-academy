@@ -2361,3 +2361,14 @@ modal-title { font-size: 18px; font-weight: bold; }
 			background-color: #092F60;
 	}
 
+
+	.custom-hover-effect:hover {
+    background-color: #092F60; /* Change the background color on hover */
+    color: #333; /* Change the text color on hover */
+		cursor: pointer;
+}
+.btnhovercursor{
+	
+cursor: pointer;
+
+}

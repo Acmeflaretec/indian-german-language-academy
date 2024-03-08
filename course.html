@@ -178,57 +178,55 @@ modal-title { font-size: 18px; font-weight: bold; }
 
 
     <!-- End header -->
-		<div class="modal fade bs-example-modal-new" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-			
-			<div class="modal-dialog">
-				
-				<!-- Modal Content: begins -->
-				<div class="modal-content">
-					<!-- Modal Header -->
-					<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		<form id="registrationForm">
+			<div class="modal fade bs-example-modal-new" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+							<!-- Modal Content: begins -->
+							<div class="modal-content">
+									<!-- Modal Header -->
+									<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									</div>
+									<!-- Modal Body -->
+									<div class="modal-body">
+											<div class="body-message">
+													<div class="form-group">
+															<label for="name">Name:</label>
+															<input type="text" class="form-control" id="name" name="name" required>
+													</div>
+													<div class="form-group">
+															<label for="email">Email:</label>
+															<input type="email" class="form-control" id="email" name="email" required>
+													</div>
+													<div class="form-group">
+															<label for="course">Course Choice:</label>
+															<select class="form-control" id="course" name="course">
+																	<option value="A1">A1</option>
+																	<option value="A2">A2</option>
+																	<option value="B1">B1</option>
+																	<option value="B2">B2</option>
+															</select>
+													</div>
+													<div class="form-group">
+															<label for="class-preference">Class Preference:</label>
+															<select class="form-control" id="class-preference" name="class-preference">
+																	<option value="One to One">One to One</option>
+																	<option value="Group Class Morning">Group Class Morning</option>
+																	<option value="Group Class Evening">Group Class Evening</option>
+															</select>
+													</div>
+											</div>
+											
+									</div>
+									<!-- Modal Footer -->
+									<div class="modal-footer">
+											<button type="submit" class="btn btn-primary">Register</button>
+									</div>
+							</div>
+							<!-- Modal Content: ends -->
 					</div>
-					<!-- Modal Body -->  
-				<!-- Modal Body -->  
-<!-- Modal Body -->
-<div class="modal-body">
-	<div class="body-message">
-			<div class="form-group">
-					<label for="name">Name:</label>
-					<input type="text" class="form-control" id="name" name="name" required>
 			</div>
-			<div class="form-group">
-				<label for="email">Email:</label>
-				<input type="email" class="form-control" id="email" name="email" required>
-		</div>
-			<div class="form-group">
-					<label for="course">Course Choice:</label>
-					<select class="form-control" id="course" name="course">
-							<option value="A1">A1</option>
-							<option value="A2">A2</option>
-							<option value="B1">B1</option>
-							<option value="B2">B2</option>
-					</select>
-			</div>
-			<div class="form-group">
-					<label for="class-preference">Class Preference:</label>
-					<select class="form-control" id="class-preference" name="class-preference">
-							<option value="One to One">One to One</option>
-							<option value="Group Class Morning">Group Class Morning</option>
-							<option value="Group Class Evening">Group Class Evening</option>
-					</select>
-			</div>
-	</div>
-</div>
-					<!-- Modal Footer -->
-					<div class="modal-footer">
-						<button type="button" class="btn btn-primary" data-dismiss="modal">Register</button>
-					</div>
-				</div>
-				<!-- Modal Content: ends -->
-			</div>
-			
-		</div>
+	</form>
 		<!-- modal end -->
 
 	<!-- section -->
@@ -266,7 +264,7 @@ modal-title { font-size: 18px; font-weight: bold; }
 					 </p>
         </div>
         <div class="full">
-					<a class="hvr-radial-out button-theme"   data-toggle="modal" data-target=".bs-example-modal-new"
+					<a class="hvr-radial-out button-theme btnhovercursor"   data-toggle="modal" data-target=".bs-example-modal-new"
 					style="color: white;"
 					>Register</a>
         </div>
@@ -315,7 +313,7 @@ modal-title { font-size: 18px; font-weight: bold; }
 
 
 			<div class="full">
-			<a class="hvr-radial-out button-theme"   data-toggle="modal" data-target=".bs-example-modal-new"
+			<a class="hvr-radial-out button-theme btnhovercursor"   data-toggle="modal" data-target=".bs-example-modal-new"
 			style="color: white;"
 			>Register</a>
 
@@ -342,7 +340,7 @@ modal-title { font-size: 18px; font-weight: bold; }
 	</p>
 </div>
 <div class="full">
-	<a class="hvr-radial-out button-theme"   data-toggle="modal" data-target=".bs-example-modal-new"
+	<a class="hvr-radial-out button-theme btnhovercursor"   data-toggle="modal" data-target=".bs-example-modal-new"
 	style="color: white;"
 	>Register</a>
 </div>
@@ -369,7 +367,7 @@ modal-title { font-size: 18px; font-weight: bold; }
 		</p>
 		</div>
 		<div class="full">
-			<a class="hvr-radial-out button-theme"   data-toggle="modal" data-target=".bs-example-modal-new"
+			<a class="hvr-radial-out button-theme btnhovercursor"   data-toggle="modal" data-target=".bs-example-modal-new"
 			style="color: white;"
 			>Register</a>
 		</div>
@@ -395,7 +393,7 @@ modal-title { font-size: 18px; font-weight: bold; }
 </p>
 </div>
 <div class="full">
-	<a class="hvr-radial-out button-theme"   data-toggle="modal" data-target=".bs-example-modal-new"
+	<a class="hvr-radial-out button-theme btnhovercursor"   data-toggle="modal" data-target=".bs-example-modal-new"
 			style="color: white;"
 			>Register</a>
 </div>
@@ -580,32 +578,7 @@ modal-title { font-size: 18px; font-weight: bold; }
     <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
 
 
-		<script>
-			document.addEventListener('DOMContentLoaded', function() {
-					var registerButton = document.querySelector('.btn-primary');
-					if (registerButton) {
-							registerButton.addEventListener('click', function(event) {
-									event.preventDefault(); // Prevent form submission
-									var name = document.getElementById('name');
-									var email = document.getElementById('email');
-									var course = document.getElementById('course');
-									var classPreference = document.getElementById('class-preference');
 	
-									// Check if all elements are found
-									if (name && email && course && classPreference) {
-											console.log('Name:', name.value);
-											console.log('Email:', email.value);
-											console.log('Course Choice:', course.value);
-											console.log('Class Preference:', classPreference.value);
-									} else {
-											console.error('One or more elements not found.');
-									}
-							});
-					} else {
-							console.error('Register button not found.');
-					}
-			});
-	</script>
 	
 	
 	
