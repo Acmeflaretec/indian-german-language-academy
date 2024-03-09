@@ -23,8 +23,14 @@ form.addEventListener('submit', e => {
 				var closeButton = document.querySelector('.modal .modal-header .close');
 					closeButton.click();
 				form.reset();
+				setTimeout(() => {
+					showAlert("Success! We will connect with you soon.")
+				},2000);
+			
+
 			} else {
 				console.error('Error!', response.statusText);
+				showAlert('please try again ')
 				loader.style.display = 'none'; // Hide loading spinner in case of error
 				registerButton.disabled = false; // Re-enable the button
 				// You might want to provide user feedback here
@@ -38,4 +44,6 @@ form.addEventListener('submit', e => {
 
 
 	
-	
+	function showAlert(a) {
+    alert(a);
+}
