@@ -2394,3 +2394,15 @@ cursor: pointer;
 		0% { transform: rotate(0deg); }
 		100% { transform: rotate(360deg); }
 	}
+
+.cimg-responsive{
+max-height: 347px;
+}
+	@media only screen and (max-width: 767px) {
+	.cimg-responsive{
+max-height: 620px;
+	}
+		
+
+	}
+	
