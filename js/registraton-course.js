@@ -3,7 +3,7 @@
 
 
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxlqTdVJTF3Lw0rGjO3tX-acIysA0yG8Ql0Zu05Fut9tnCMkhtMam7k6O1utudN8lGI/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzQcNNdOXaBTFA6c83ZfK00oC7MVEiFR5h29w14zBDplrXBovM6tiXWV4eIUvOJHFQ/exec'
 const form = document.forms['registrationForm']
 const registerButton = document.getElementById('registerButton');
 const loader = document.getElementById('loader');
